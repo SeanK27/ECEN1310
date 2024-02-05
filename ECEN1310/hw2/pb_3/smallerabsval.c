@@ -1,7 +1,11 @@
 #include <assert.h>
+
+// Used stdlib.h for the abs() function.
 #include <stdlib.h>
 
 int smallerabsval(int x, int y) {
+
+	// Start by testing equivalency of value and absolute value. Then tested for smallest value.
 	if (x == y) {
 		return x;
 	}
